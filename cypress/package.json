@@ -22,6 +22,16 @@
   "homepage": "https://github.com/reportportal/examples-javascript#readme",
   "devDependencies": {
     "@reportportal/agent-js-cypress": "^5.1.2",
-    "cypress": "^12.9.0"
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "typescript": "^5.0.4",
+    "cypress": "^12.9.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1"
   }
 }

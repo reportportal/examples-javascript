@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES5",
+    "noEmit": false,
+    "lib": [
+      "ES2015",
+      "DOM"
+    ],
+    "types": [
+      "node",
+      "cypress"
+    ]
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
