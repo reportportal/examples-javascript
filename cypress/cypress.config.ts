@@ -1,5 +1,4 @@
 import { defineConfig } from "cypress";
-import { registerReportPortalPlugin } from "@reportportal/agent-js-cypress/lib/plugin";
 
 export default defineConfig({
   // Cypress common config
@@ -10,7 +9,7 @@ export default defineConfig({
     baseUrl: "https://www.example.com",
     specPattern: "cypress/e2e/**/*.cy.ts",
     setupNodeEvents(on, config) {
-      return registerReportPortalPlugin(on, config);
+      return require("@reportportal/agent-js-cypress/lib/plugin")(on, config);
     }
   },
 
