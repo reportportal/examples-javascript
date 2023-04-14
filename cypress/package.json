@@ -1,0 +1,27 @@
+{
+  "name": "@reportportal/examples-javascript-cypress",
+  "version": "1.0.0",
+  "description": "Cypress project example which use Report Portal",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reportportal/examples-javascript.git"
+  },
+  "keywords": [
+    "cypress",
+    "reportportal",
+    "example"
+  ],
+  "author": "Report Portal Team",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/reportportal/examples-javascript/issues"
+  },
+  "homepage": "https://github.com/reportportal/examples-javascript#readme",
+  "devDependencies": {
+    "@reportportal/agent-js-cypress": "^5.1.2",
+    "cypress": "^12.9.0"
+  }
+}
